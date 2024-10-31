@@ -1,27 +1,35 @@
+* {
+    font-family: Tahoma, sans-serif;
+    color: #76ABAE;
+    box-sizing: border-box;
+}
+
 body {
     background-color: #222831;
-    color: #EEEEEE;
 }
 
-h1 {
-    font-family: Tahoma, sans-serif;
+h1, h2, p{
     text-align: center;
 }
-
-ul {
-    text-align: center;
-    font-family: Tahoma, sans-serif;
+h1, h2 {
+    color: white;
 }
 
 a {
-    color: #EEEEEE;
+    color: #76ABAE;
     text-decoration: none;
 }
 
 a:hover {
-    color: #76ABAE;
+    color: rgb(255, 255, 255);
 }
 
 #choices {
     list-style-type: none;
+    text-align: center;
+}
+
+div {
+    display: flex;
+    justify-content: center;
 }
