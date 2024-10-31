@@ -1,0 +1,27 @@
+body {
+    background-color: #222831;
+    color: #EEEEEE;
+}
+
+h1 {
+    font-family: Tahoma, sans-serif;
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+    font-family: Tahoma, sans-serif;
+}
+
+a {
+    color: #EEEEEE;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #76ABAE;
+}
+
+#choices {
+    list-style-type: none;
+}
